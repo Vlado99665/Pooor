@@ -11,6 +11,7 @@ const Home = () => {
               <h2 className="title-2">What can I do</h2>
               <p>JavaScript, ReactJS, HTML, CSS,</p>
             </li>
+            <img src="./../img/Main.jpg" alt="Рисунок"></img>
             <li className="content-list__item">
               <h2 className="title-2">Something else</h2>
               <p>C++, Matlab, Python</p>
