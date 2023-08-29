@@ -3,7 +3,7 @@
 .footer {
   margin-top: auto;
   padding: 60px 0 50px;
-  background-color: aquamarine;
+  background-color: #191970;
   color: var(--footer-text);
 }
 
