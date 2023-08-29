@@ -8,9 +8,9 @@ const Header = () => {
           <strong>
             My name is <em>Vladislav</em>
           </strong>
-          <br />a bad boy
+          <br />a web developer
         </h1>
-        <a href="#!" className="btn">
+        <a href="https://obrazecv.ru/pdf/3.pdf" className="btn">
           Download resume
         </a>
       </div>

@@ -28,7 +28,7 @@ const Footer = () => {
               </a>
             </li>
             <li className="social__item">
-              <a href="https://github.com/Vlado99665?tab=repositories">
+              <a href="https://github.com/Vlado99665/PPPoooort">
                 <img src={gitHub} alt="Link" />
               </a>
             </li>
