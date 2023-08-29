@@ -13,7 +13,7 @@ const Home = () => {
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Something else</h2>
-              <p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
+              <p>C++, Matlab, Python</p>
             </li>
           </ul>
         </div>

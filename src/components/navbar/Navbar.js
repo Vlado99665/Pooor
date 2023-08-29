@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-row">
           <NavLink to="/" className="logo">
-            <strong>Example</strong> portfolio
+            <strong>Example portfolio</strong>
           </NavLink>
 
           <BtnDarkMode />
