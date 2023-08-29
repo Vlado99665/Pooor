@@ -34,7 +34,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className="copyright">
-            <p>2023, Here I need to write something else</p>
+            <p>2023, Vladislav Ushin</p>
           </div>
         </div>
       </div>
