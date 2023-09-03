@@ -10,15 +10,17 @@ const Contacts = () => {
             <p>Moscow, Russia</p>
           </li>
           <li className="content-list__item">
-            <h2 className="title-2">Telegram / WhatsApp</h2>
+            <h2 className="title-2"> WhatsApp</h2>
             <p>
-              <a href="tel:+79051234567">8 800 555 35 35 </a>
+              <h3>8 800 555 35 35 </h3>
             </p>
           </li>
           <li className="content-list__item">
             <h2 className="title-2">Email</h2>
             <p>
-              <a href="mailto:webdev@protonmail.com">ushin99665@gmail.com</a>
+              <a href="https://mail.google.com/mail/u/0/#inbox">
+                ushin99665@gmail.com
+              </a>
             </p>
           </li>
         </ul>

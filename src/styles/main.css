@@ -8,7 +8,8 @@
   --black-border: #26292d;
   --white: #fff;
   --purple: #5c62ec;
-
+  --fuchsia: #ff00ff;
+  --grad: linear-gradient(to bottom, #ff00ff, #00ffff);
   /* Nav */
   --nav-bg: var(--black);
   --nav-border: var(--black-border);
@@ -23,7 +24,8 @@
   --footer-text: var(--white);
 
   /* Light mode */
-  --page-bg: var(--white);
+  background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+
   --text-color: var(--black);
   --accent: var(--purple);
   --title-1: var(--accent);
@@ -95,7 +97,7 @@ body {
 
 .title-2 {
   margin-bottom: 20px;
-
+  color: white;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.3;
@@ -302,3 +304,7 @@ body {
     width: 28px;
   }
 }
+
+/*.text {
+  width: 70%;
+  padding-right: 20px; /* Расстояние между текстом и изображением }*/

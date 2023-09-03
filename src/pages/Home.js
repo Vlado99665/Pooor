@@ -1,5 +1,5 @@
 import Header from "./../components/header/Header";
-
+import Main2 from "./../img/Main2.jpg";
 const Home = () => {
   return (
     <>
@@ -8,10 +8,15 @@ const Home = () => {
         <div className="container">
           <ul className="content-list">
             <li className="content-list__item">
-              <h2 className="title-2">What can I do</h2>
-              <p>JavaScript, ReactJS, HTML, CSS,</p>
+              <div className="text">
+                <h2 className="title-2">Briefly about me </h2>
+                <p>JavaScript, ReactJS, HTML, CSS,</p>
+              </div>
+              <div class="image">
+                <img src={Main2} alt="Рисунок"></img>
+              </div>
             </li>
-            <img src="./../img/Main.jpg" alt="Рисунок"></img>
+
             <li className="content-list__item">
               <h2 className="title-2">Something else</h2>
               <p>C++, Matlab, Python</p>
