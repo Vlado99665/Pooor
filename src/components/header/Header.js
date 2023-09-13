@@ -10,7 +10,7 @@ const Header = () => {
           </strong>
           <br />a web developer
         </h1>
-        <a href="https://obrazecv.ru/pdf/3.pdf" className="btn">
+        <a href="https://obrazecv.ru/pdf/3.pdf" target="_blank" className="btn">
           Download resume
         </a>
       </div>

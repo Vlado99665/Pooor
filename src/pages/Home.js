@@ -1,6 +1,8 @@
 import Header from "./../components/header/Header";
 import Main2 from "./../img/Main2.jpg";
-const Home = () => {
+const Home = (props) => {
+  const { projects } = props;
+  console.log(props.projects);
   return (
     <>
       <Header />
