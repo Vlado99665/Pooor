@@ -1,4 +1,5 @@
 import "./style.css";
+import Box from "@mui/material/Box";
 
 import vk from "./../../img/icons/vk.svg";
 import instagram from "./../../img/icons/instagram.svg";
@@ -9,8 +10,8 @@ import gitHub from "./../../img/icons/gitHub.svg";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container">
-        <div className="footer__wrapper">
+      <Box className="container">
+        <Box className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
               <a href="https://vk.com/bertoldo99" target="_blank">
@@ -36,11 +37,11 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <div className="copyright">
+          <Box className="copyright">
             <p>2023, Vladislav Yushin</p>
-          </div>
-        </div>
-      </div>
+          </Box>
+        </Box>
+      </Box>
     </footer>
   );
 };
