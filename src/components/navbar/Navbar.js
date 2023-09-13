@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
 import "./style.css";
+import Box from "@mui/material/Box";
 
 const Navbar = () => {
   const activeLink = "nav-list__link nav-list__link--active";
@@ -8,8 +9,8 @@ const Navbar = () => {
 
   return (
     <nav className="nav">
-      <div className="container">
-        <div className="nav-row">
+      <Box className="container">
+        <Box className="nav-row">
           <NavLink to="/" className="logo">
             <strong>Example portfolio</strong>
           </NavLink>
@@ -49,8 +50,8 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
-        </div>
-      </div>
+        </Box>
+      </Box>
     </nav>
   );
 };
