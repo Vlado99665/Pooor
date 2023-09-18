@@ -10,11 +10,11 @@ import Project from "./pages/Project";
 import Contacts from "./pages/Contacts";
 
 import ScrollToTop from "./utils/scrollToTop";
-
+import Box from "@mui/material/Box";
 function App() {
   const projects = [1, 2, 4];
   return (
-    <div className="App">
+    <Box className="App">
       <Router>
         <ScrollToTop />
         <Navbar />
@@ -26,7 +26,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-    </div>
+    </Box>
   );
 }
 

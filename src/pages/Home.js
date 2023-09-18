@@ -1,5 +1,6 @@
 import Header from "./../components/header/Header";
 import Main2 from "./../img/Main2.jpg";
+import Box from "@mui/material/Box";
 const Home = (props) => {
   const { projects } = props;
   console.log(props.projects);
@@ -7,16 +8,16 @@ const Home = (props) => {
     <>
       <Header />
       <main className="section">
-        <div className="container">
+        <Box className="container">
           <ul className="content-list">
             <li className="content-list__item">
-              <div className="text">
+              <Box className="text">
                 <h2 className="title-2">Briefly about me </h2>
                 <p>JavaScript, ReactJS, HTML, CSS,</p>
-              </div>
-              <div class="image">
+              </Box>
+              <Box class="image">
                 <img src={Main2} alt="Рисунок"></img>
-              </div>
+              </Box>
             </li>
 
             <li className="content-list__item">
@@ -24,7 +25,7 @@ const Home = (props) => {
               <p>C++, Matlab, Python</p>
             </li>
           </ul>
-        </div>
+        </Box>
       </main>
     </>
   );

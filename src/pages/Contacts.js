@@ -1,7 +1,8 @@
+import Box from "@mui/material/Box";
 const Contacts = () => {
   return (
     <main className="section">
-      <div className="container">
+      <Box className="container">
         <h1 className="title-1">Contacts</h1>
 
         <ul className="content-list">
@@ -24,7 +25,7 @@ const Contacts = () => {
             </p>
           </li>
         </ul>
-      </div>
+      </Box>
     </main>
   );
 };
