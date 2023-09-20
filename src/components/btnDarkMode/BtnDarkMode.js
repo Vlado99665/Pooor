@@ -1,4 +1,42 @@
-import React, { useState } from "react";
+import React from "react";
+import ReactDOM from "react-dom";
+import CssBaseline from "@mui/material/CssBaseline";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import Button from "@mui/material/Button";
+
+const themeLight = createTheme({
+  palette: {
+    background: {
+      default: "#c4fcff",
+    },
+  },
+});
+
+const themeDark = createTheme({
+  palette: {
+    background: {
+      default: "#222222",
+    },
+    text: {
+      primary: "#ffffff",
+    },
+  },
+});
+
+const App = () => {
+  const [light, setLight] = React.useState(true);
+  return (
+    <ThemeProvider theme={light ? themeLight : themeDark}>
+      <CssBaseline />
+      <Button onClick={() => setLight((prev) => !prev)}>Change Theme</Button>
+    </ThemeProvider>
+  );
+};
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
+export default App;
+/*import React, { useState } from "react";
 
 import { Grid, Typography, Switch, FormControlLabel } from "@material-ui/core";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
@@ -12,12 +50,7 @@ const SFDUJ = () => {
     },
   });
 
-  const greenTheme = createMuiTheme({
-    palette: {
-      primary: green,
-      secondary: green,
-    },
-  });
+  
 };
 return (
   <ThemeProvider theme={darkMode ? darkTheme : greenTheme}>
@@ -25,7 +58,7 @@ return (
   </ThemeProvider>
 );
 
-export default BtnDarkMode;
+export default SFDUJ;
 /*import React, { useState } from "react";
 
 import { Box, Typography, Switch, FormControlLabel } from "@mui/material";
